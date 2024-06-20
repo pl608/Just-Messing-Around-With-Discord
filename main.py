@@ -8,12 +8,7 @@ emoji_list = []
 
 jayden = None
 # Create a bot instance
-intents = discord.Intents.default()
-intents.message_content = True  # Enable message content intent
-intents.messages = True
-intents.dm_messages = True
 
-#client = discord.Client(intents=intents)
 client = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
 
